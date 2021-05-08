@@ -208,7 +208,7 @@ void setSliderValues(int mode) {
 }
 
 void save_image() {
-  savingImage = get(0, 0, img.width, img.height);
+  savingImage = img;
   selectOutput("Select a file to write to:", "fileSelected");
 }
 void fileSelected(File selection) { 
